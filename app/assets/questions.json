@@ -1,0 +1,12 @@
+[
+  {
+    "question": "what is this question?",
+    "choices": ["a", "b", "c", "d"],
+    "correctIndex": 1
+  },
+  {
+    "question": "this is the second question?",
+    "choices": ["a", "b", "c", "d"],
+    "correctIndex": 2
+  }
+]
