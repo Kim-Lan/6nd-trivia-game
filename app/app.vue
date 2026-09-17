@@ -9,10 +9,10 @@ useHead({
   htmlAttrs: {
     lang: 'en'
   }
-})
+});
 
-const title = 'camkatsu\'s 6nd trivia game'
-const description = 'a short trivia game about camkatsu for katsu\'s 6nd stream anniversary'
+const title = 'camkatsu\'s 6nd trivia game';
+const description = 'a short trivia game about camkatsu to celebrate his 6nd stream anniversary';
 
 useSeoMeta({
   title,
@@ -21,7 +21,7 @@ useSeoMeta({
   ogDescription: description,
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
   twitterCard: 'summary_large_image'
-})
+});
 </script>
 
 <template>

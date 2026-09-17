@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Transition name="fade" mode="out-in">
+    <Transition
+      name="fade"
+      mode="out-in"
+    >
       <Question
         :key=currentIndex
         v-bind="questions[currentIndex]"
@@ -12,7 +15,7 @@
 </template>
 
 <script lang="ts" setup>
-import questions from '~/assets/questions.json'
+import questions from '~/assets/questions.json';
 
 const currentIndex = ref(0);
 const score = ref(0);

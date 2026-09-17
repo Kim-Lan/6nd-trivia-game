@@ -2,7 +2,7 @@
   <div>
     <UPageHero
       title="camkatsu's 6nd trivia game !"
-      description="a short trivia game about camkatsu for his 6nd stream anniversary"
+      description="a short trivia game about camkatsu to celebrate his 6nd stream anniversary"
       :links="[{
         label: 'Play',
         to: 'play',

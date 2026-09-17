@@ -4,6 +4,7 @@
   >
     <Choice
       v-for="(choice, index) in choices"
+      :key=choice
       :text="choice"
       :index
       @choice-selected="onChoiceSelected"
@@ -19,8 +20,7 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: increaseScore): void;
-  (e: nextQuestion): void;
+  (e: 'increaseScore' | 'nextQuestion'): void;
 }>();
 
 function onChoiceSelected(index: number): void {
