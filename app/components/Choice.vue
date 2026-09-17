@@ -1,6 +1,6 @@
 <template>
   <UButton
-    class="text-xl justify-center"
+    class="text-2xl flex justify-center w-full"
     @click="$emit('choiceSelected', index)"
   >
     {{ text }}
