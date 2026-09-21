@@ -13,7 +13,9 @@
         :index
         :disabled="isAnswered"
         :ui="{
-          base: (index === correctIndex) ? 'disabled:opacity-100 disabled:bg-primary-500' : 'disabled:bg-zinc-400'
+          base: (index === correctIndex) ? 'disabled:opacity-100 disabled:bg-primary-500'
+            : (index === selectedIndex) ? 'disabled:opacity-100 disabled:bg-zinc-500 dark:disabled:bg-zinc-400'
+              : 'disabled:bg-zinc-300 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-500'
         }"
         @choice-selected="onChoiceSelected"
       />
@@ -46,11 +48,15 @@ const emit = defineEmits<{
 }>();
 
 const isAnswered = ref(false);
+const selectedIndex = ref(-1);
 
 function onChoiceSelected(index: number): void {
+  selectedIndex.value = index;
+
   if (index === props.correctIndex) {
     emit('increaseScore');
   }
+
   isAnswered.value = true;
 }
 </script>
