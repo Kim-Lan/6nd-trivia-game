@@ -4,11 +4,13 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui'
   ],
-  
-  base: 'https://kim-lan.github.io/6nd-trivia-game/',
 
   devtools: {
     enabled: true
+  },
+
+  app: {
+    baseUrl: '/6nd-trivia-game/'
   },
 
   css: ['~/assets/css/main.css'],
