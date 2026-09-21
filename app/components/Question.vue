@@ -2,7 +2,7 @@
   <UPageSection
     :title=question
     :ui="{
-      container: 'py-12 sm:py-12 lg:py-16 gap-12 lg:gap-16'
+      container: 'py-8 sm:py8 lg:py-12 gap-8 lg:gap-12'
     }"
   >
     <UContainer class="flex flex-col w-full gap-12 lg:max-w-3/4">
@@ -11,8 +11,25 @@
         :key=choice
         :text="choice"
         :index
+        :disabled="isAnswered"
         @choice-selected="onChoiceSelected"
+        :ui="{
+          base: (index === correctIndex) ? 'disabled:opacity-100 disabled:bg-primary-500' : 'disabled:bg-zinc-400'
+        }"
       />
+    </UContainer>
+
+    <UContainer class="flex flex-row justify-end">
+      <UButton
+        color="secondary"
+        trailing-icon="boxicons:arrow-big-right-filled"
+        @click="$emit('nextQuestion')"
+        :disabled="!isAnswered"
+        :class="{ hidden : !isAnswered}"
+        class="text-lg"
+      >
+        next
+      </UButton>
     </UContainer>
   </UPageSection>
 </template>
@@ -28,10 +45,12 @@ const emit = defineEmits<{
   (e: 'increaseScore' | 'nextQuestion'): void;
 }>();
 
+const isAnswered = ref(false);
+
 function onChoiceSelected(index: number): void {
   if (index === props.correctIndex) {
     emit('increaseScore');
   }
-  emit('nextQuestion');
+  isAnswered.value = true;
 }
 </script>

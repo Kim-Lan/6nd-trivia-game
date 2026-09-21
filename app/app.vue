@@ -59,7 +59,7 @@ useSeoMeta({
     <UFooter class="max-h-[64px]">
       <template #left>
         <p class="text-sm text-muted">
-          Developed by Kim-Lan • © All Rights Reserved.
+          developed by kim-lan • © all rights reserved
         </p>
       </template>
 

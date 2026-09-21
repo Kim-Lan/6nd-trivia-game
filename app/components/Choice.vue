@@ -19,5 +19,4 @@ defineEmits<{
 </script>
 
 <style>
-
 </style>

@@ -1,5 +1,7 @@
 <template>
-  <UContainer>
+  <UContainer
+    class="flex flex-col"
+  >
     <Transition
       name="fade"
       mode="out-in"
@@ -15,8 +17,11 @@
         v-else
         :score
         :total="questions.length"
+        @play-again="playAgain"
       />
     </Transition>
+
+
   </UContainer>
 </template>
 
@@ -37,6 +42,12 @@ function nextQuestion(): void {
   } else {
     gameFinished.value = true;
   }
+}
+
+function playAgain(): void {
+  gameFinished.value = false;
+  currentIndex.value = 0;
+  score.value = 0;
 }
 </script>
 
