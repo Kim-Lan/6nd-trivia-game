@@ -1,12 +1,32 @@
 [
   {
-    "question": "what is this question?",
-    "choices": ["a", "b", "c", "d"],
+    "question": "what game/location's lava did katsu describe as \"viscous egg yolks\" in the lava tier list?",
+    "choices": ["kirby and the forgotten land: in the presence of the king", "tloz the wind waker: dragon roost cavern", "mario kart 8dx: bowser's castle", "super mario sunshine: corona mountain"],
     "correctIndex": 1
   },
   {
-    "question": "this is the second question?",
-    "choices": ["a", "b", "c", "d"],
+    "question": "what was katsu's 2-year stream anniversary called?",
+    "choices": ["2rd", "2nd", "2th", "2st"],
     "correctIndex": 2
+  },
+  {
+    "question": "how many total hours has katsu streamed kirby air ride?",
+    "choices": ["90", "100", "110", "120"],
+    "correctIndex": 3
+  },
+  {
+    "question": "what is katsu's most streamed category in terms of hours?",
+    "choices": ["art", "kirby air ride", "celeste", "pokémon mystery dungeon: explorers of sky"],
+    "correctIndex": 0
+  },
+  {
+    "question": "how many games has katsu 100%'d on stream?",
+    "choices": ["21", "24", "27", "30"],
+    "correctIndex": 2
+  },
+  {
+    "question": "during what game was pp first used as a replacement for gg?",
+    "choices": ["tetris 99", "tloz ocarina of time", "paper mario", "celeste"],
+    "correctIndex": 3
   }
 ]

@@ -20,8 +20,6 @@
         @play-again="playAgain"
       />
     </Transition>
-
-
   </UContainer>
 </template>
 

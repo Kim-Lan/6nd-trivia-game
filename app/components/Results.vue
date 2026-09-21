@@ -37,7 +37,7 @@ defineProps<{
   total: number;
 }>();
 
- defineEmits<{
+defineEmits<{
   (e: 'playAgain'): void;
 }>();
 </script>

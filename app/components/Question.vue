@@ -2,20 +2,20 @@
   <UPageSection
     :title=question
     :ui="{
-      container: 'py-8 sm:py8 lg:py-12 gap-8 lg:gap-12'
+      container: 'py-8 sm:py-8 lg:py-10 gap-8 lg:gap-12'
     }"
   >
-    <UContainer class="flex flex-col w-full gap-12 lg:max-w-3/4">
+    <UContainer class="flex flex-col w-full gap-8 lg:gap-12 lg:max-w-3/4">
       <Choice
         v-for="(choice, index) in choices"
         :key=choice
         :text="choice"
         :index
         :disabled="isAnswered"
-        @choice-selected="onChoiceSelected"
         :ui="{
           base: (index === correctIndex) ? 'disabled:opacity-100 disabled:bg-primary-500' : 'disabled:bg-zinc-400'
         }"
+        @choice-selected="onChoiceSelected"
       />
     </UContainer>
 
@@ -23,10 +23,10 @@
       <UButton
         color="secondary"
         trailing-icon="boxicons:arrow-big-right-filled"
-        @click="$emit('nextQuestion')"
         :disabled="!isAnswered"
-        :class="{ hidden : !isAnswered}"
+        :class="{ hidden: !isAnswered }"
         class="text-lg"
+        @click="$emit('nextQuestion')"
       >
         next
       </UButton>
