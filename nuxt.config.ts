@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  base: 'https://kim-lan.github.io/6nd-trivia-game/',
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui'
