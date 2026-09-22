@@ -1,18 +1,38 @@
 [
   {
-    "question": "what game/location's lava did katsu describe as \"viscous egg yolks\" in the lava tier list?",
-    "choices": ["kirby and the forgotten land: in the presence of the king", "tloz the wind waker: dragon roost cavern", "mario kart 8dx: bowser's castle", "super mario sunshine: corona mountain"],
-    "correctIndex": 1
+    "question": "which kirby game has katsu not streamed?",
+    "choices": ["kirby tilt 'n' tumble", "kirby's epic yarn", "kirby: canvas curse", "kirby mass attack"],
+    "correctIndex": 2
   },
   {
-    "question": "what was katsu's 2-year stream anniversary called?",
-    "choices": ["2rd", "2nd", "2th", "2st"],
-    "correctIndex": 2
+    "question": "during what game did nemo first appear on stream?",
+    "choices": ["jackbox party pack", "wii sports resort", "the legend of zelda: majora's mask", "the legend of zelda: ocarina of time"],
+    "correctIndex": 3
+  },
+  {
+    "question": "what game/location's lava did katsu describe as \"viscous egg yolks\" in the lava tier list?",
+    "choices": ["kirby and the forgotten land - in the presence of the king", "the legend of zelda: the wind waker - dragon roost cavern", "mario kart 8dx - bowser's castle", "super mario sunshine - corona mountain"],
+    "correctIndex": 1
   },
   {
     "question": "how many total hours has katsu streamed kirby air ride?",
     "choices": ["90", "100", "110", "120"],
     "correctIndex": 3
+  },
+  {
+    "question": "which of these was not a category in the community 45x45?",
+    "choices": ["shy guys", "jazz standards", "kirby abilities", "super mario sunshine shines"],
+    "correctIndex": 2
+  },
+  {
+    "question": "which of these movies has only been streamed in the pplushie realm once?",
+    "choices": ["a silent voice", "everything everywhere all at once", "a goofy movie", "your name (kimi no na wa)"],
+    "correctIndex": 0
+  },
+  {
+    "question": "what was the winning score in the space cats high score contest?",
+    "choices": ["3304", "4719", "1576", "2672"],
+    "correctIndex": 0
   },
   {
     "question": "what is katsu's most streamed category in terms of hours?",
@@ -26,7 +46,7 @@
   },
   {
     "question": "during what game was pp first used as a replacement for gg?",
-    "choices": ["tetris 99", "tloz ocarina of time", "paper mario", "celeste"],
+    "choices": ["tetris 99", "the legend of zelda: ocarina of time", "paper mario", "celeste"],
     "correctIndex": 3
   }
 ]
