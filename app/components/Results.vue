@@ -18,7 +18,7 @@
 
       <template #footer>
         <h3 class="font-bold text-2xl text-blue-950 dark:text-blue-200">
-          <span class="text-green-500">{{ score }} correct</span> / {{ total }}
+          <span class="text-primary-500">{{ score }} correct</span> / {{ total }}
         </h3>
       </template>
     </UCard>

@@ -3,10 +3,6 @@
 
 @theme static {
   --font-sans: 'Radio Canada', sans-serif;
-
-  --color-green-400: #27ba3d;
-  --color-green-500: #23b239;
-  --color-green-600: #1e9630;
 }
 
 :root {
