@@ -7,7 +7,7 @@ export default defineAppConfig({
     },
     header: {
       slots: {
-        root: 'border-sky-200 dark:border-sky-950',
+        root: 'border-sky-200 dark:border-sky-900',
         left: 'text-secondary'
       }
     },
@@ -21,7 +21,7 @@ export default defineAppConfig({
       variants: {
         color: {
           neutral: {
-            border: 'border-sky-200 dark:border-sky-950'
+            border: 'border-sky-200 dark:border-sky-900'
           }
         }
       }
