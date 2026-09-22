@@ -83,6 +83,6 @@ body {
 }
 
 .dark body {
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-blue-950);
 }
 </style>

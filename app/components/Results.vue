@@ -7,6 +7,7 @@
       description="pp! thank you for playing"
       class="text-center mx-8 my-12 lg:my-16"
       :ui="{
+        root: 'bg-default/75',
         title: 'text-2xl text-blue-950 dark:text-blue-200',
         description: 'text-lg'
       }"
