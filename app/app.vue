@@ -19,7 +19,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: './screenshot.png',
+  ogImage: 'https://kim-lan.github.io/6nd-trivia-game/screenshot.png',
   twitterCard: 'summary_large_image'
 });
 </script>
