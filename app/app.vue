@@ -4,7 +4,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/sprout.png' }
+    { rel: 'icon', href: './sprout.png' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -19,7 +19,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '/screenshot.png',
+  ogImage: './screenshot.png',
   twitterCard: 'summary_large_image'
 });
 </script>
