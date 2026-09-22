@@ -40,6 +40,10 @@ function nextQuestion(): void {
   } else {
     gameFinished.value = true;
   }
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 }
 
 function playAgain(): void {
