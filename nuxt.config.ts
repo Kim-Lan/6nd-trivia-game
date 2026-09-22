@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/6nd-trivia-game/'
+    baseURL: '/camkatsu-6nd-trivia/'
   },
 
   css: ['~/assets/css/main.css'],

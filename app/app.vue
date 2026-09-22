@@ -19,7 +19,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://kim-lan.github.io/6nd-trivia-game/screenshot.png',
+  ogImage: 'https://kim-lan.github.io/camkatsu-6nd-trivia/screenshot.png',
   twitterCard: 'summary_large_image'
 });
 </script>
@@ -40,7 +40,7 @@ useSeoMeta({
         <UColorModeButton class="text-sky-300 dark:text-sky-700" />
 
         <UButton
-          to="https://github.com/Kim-Lan/6nd-trivia-game"
+          to="https://github.com/Kim-Lan/camkatsu-6nd-trivia"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -65,7 +65,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/Kim-Lan/6nd-trivia-game"
+          to="https://github.com/Kim-Lan/camkatsu-6nd-trivia"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
