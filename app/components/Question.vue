@@ -2,7 +2,8 @@
   <UPageSection
     :title=question
     :ui="{
-      container: 'py-8 sm:py-8 lg:py-10 gap-8 lg:gap-12'
+      container: 'py-8 sm:py-8 lg:py-10 gap-8 lg:gap-12',
+      title: 'text-blue-950 dark:text-blue-200'
     }"
   >
     <UContainer class="flex flex-col w-full gap-8 lg:gap-12 lg:max-w-3/4">
@@ -14,8 +15,8 @@
         :disabled="isAnswered"
         :ui="{
           base: (index === correctIndex) ? 'disabled:opacity-100 disabled:bg-primary-500'
-            : (index === selectedIndex) ? 'disabled:opacity-100 disabled:bg-zinc-500 dark:disabled:bg-zinc-400'
-              : 'disabled:bg-zinc-300 dark:disabled:bg-zinc-800 dark:disabled:text-zinc-500'
+            : (index === selectedIndex) ? 'disabled:opacity-100 disabled:bg-neutral-500 dark:disabled:bg-neutral-400'
+              : 'disabled:bg-neutral-300 dark:disabled:bg-neutral-800 dark:disabled:text-neutral-500'
         }"
         @choice-selected="onChoiceSelected"
       />

@@ -4,7 +4,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/sprout.png' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -19,7 +19,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: '/screenshot.png',
   twitterCard: 'summary_large_image'
 });
 </script>
@@ -37,15 +37,15 @@ useSeoMeta({
       </template>
 
       <template #right>
-        <UColorModeButton />
+        <UColorModeButton class="text-sky-300 dark:text-sky-700" />
 
         <UButton
           to="https://github.com/Kim-Lan/6nd-trivia-game"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
-          color="neutral"
           variant="ghost"
+          class="text-sky-300 dark:text-sky-700"
         />
       </template>
     </UHeader>
@@ -58,7 +58,7 @@ useSeoMeta({
 
     <UFooter class="max-h-[64px]">
       <template #left>
-        <p class="text-sm text-muted">
+        <p class="text-sm">
           developed by kim-lan • © all rights reserved
         </p>
       </template>
@@ -69,10 +69,20 @@ useSeoMeta({
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
-          color="neutral"
           variant="ghost"
+          class="text-sky-300 dark:text-sky-700"
         />
       </template>
     </UFooter>
   </UApp>
 </template>
+
+<style>
+body {
+  background-color: var(--color-sky-100);
+}
+
+.dark body {
+  background-color: var(--color-dark-blue);
+}
+</style>
