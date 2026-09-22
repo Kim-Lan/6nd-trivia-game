@@ -26,7 +26,12 @@ useSeoMeta({
 
 <template>
   <UApp class="max-h-screen">
-    <UHeader class="max-h-[64px]">
+    <UHeader
+      class="max-h-[var(--ui-header-height)]"
+      :ui="{
+        toggle: 'hidden'
+      }"
+    >
       <template #left>
         <NuxtLink
           to="/"
@@ -56,7 +61,7 @@ useSeoMeta({
 
     <USeparator />
 
-    <UFooter class="max-h-[64px]">
+    <UFooter class="max-h-[var(--ui-header-height)]">
       <template #left>
         <p class="text-sm">
           developed by kim-lan • © all rights reserved
