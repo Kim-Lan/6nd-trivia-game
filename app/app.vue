@@ -50,7 +50,7 @@ useSeoMeta({
           icon="i-simple-icons-github"
           aria-label="GitHub"
           variant="ghost"
-          class="text-sky-300 dark:text-sky-700"
+          class="text-sky-300 dark:text-sky-700 hidden md:block"
         />
       </template>
     </UHeader>
