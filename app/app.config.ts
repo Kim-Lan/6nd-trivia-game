@@ -14,7 +14,7 @@ export default defineAppConfig({
     pageHero: {
       slots: {
         title: 'text-secondary',
-        description: 'text-blue-950 dark:text-blue-200'
+        description: 'text-xl sm:text-2xl text-blue-950 dark:text-blue-200'
       }
     },
     separator: {
@@ -29,6 +29,15 @@ export default defineAppConfig({
     footer: {
       slots: {
         container: 'text-sky-300 dark:text-sky-700'
+      }
+    },
+    button: {
+      variants: {
+        size: {
+          xl: {
+            base: 'text-xl'
+          }
+        }
       }
     }
   }
