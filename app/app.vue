@@ -64,7 +64,7 @@ useSeoMeta({
     <UFooter class="max-h-[var(--ui-header-height)]">
       <template #left>
         <p class="text-sm">
-          developed by kim-lan • © all rights reserved
+          developed by kim-lan, questions written by kim-lan and suite • © all rights reserved
         </p>
       </template>
 
